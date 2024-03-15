@@ -15,15 +15,15 @@ for i in a.get_activities():
     print(i)
 
 # hiển thị các permission
-# print("Các permission trong APK:")
-# for i in a.get_permissions():
-#     print(i)
+print("Các permission trong APK:")
+for i in a.get_permissions():
+    print(i)
 
 # hiển thị các phương thức
-# print("Các phương thức trong APK:")
-# for i in dx.get_methods():
-#     print(i)
+print("Các phương thức trong APK:")
+for i in dx.get_methods():
+    print(i)
  # hiển thị các dịch vụ
-# print("Các dịch vụ trong APK:")
-# for i in a.get_services():
-#     print(i)
+print("Các dịch vụ trong APK:")
+for i in a.get_services():
+    print(i)
